@@ -9,8 +9,8 @@
 
 import sys
 
-input = sys.stdin.read()
-tokens = input.split()
+std_input = sys.stdin.read()
+tokens = std_input.split()
 a = int(tokens[0])
 b = int(tokens[1])
 print(a + b)
