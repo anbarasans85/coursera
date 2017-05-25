@@ -48,4 +48,3 @@ def main():
   print(tree.compute_height())
 
 threading.Thread(target=main).start()
-
